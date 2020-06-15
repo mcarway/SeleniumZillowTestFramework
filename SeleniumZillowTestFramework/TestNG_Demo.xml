@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- IMPORTANT NOTE: In the xml you can include multiple classes AND multiple methods and then call 
+from an exe script if you want to give others access to run the tests. -->
+<suite name="Suite1" parallel="classes">
+	<test thread-count="5" name="Test1" parallel="classes">
+		<classes>
+			<class name="tests.TestNG_Demo">
+				<methods>
+					<include name="GoogleSearchTest1"></include>
+					<include name="GoogleSearchTest3"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test1 -->
+</suite> <!-- Suite1 -->

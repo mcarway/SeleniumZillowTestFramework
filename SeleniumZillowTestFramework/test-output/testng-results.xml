@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Realtor Regression Suite" duration-ms="247521" started-at="2020-06-13T18:51:32 EDT" finished-at="2020-06-13T18:55:39 EDT">
+    <groups>
+    </groups>
+    <test name="Realtor rentals regression" duration-ms="247521" started-at="2020-06-13T18:51:32 EDT" finished-at="2020-06-13T18:55:39 EDT">
+      <class name="tests.ZillowQueensSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="setup" is-config="true" duration-ms="12730" started-at="2020-06-13T18:53:01 EDT" finished-at="2020-06-13T18:53:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ZillowSearchQueens()[pri:1, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchQueens" duration-ms="32148" started-at="2020-06-13T18:53:14 EDT" finished-at="2020-06-13T18:53:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchQueens -->
+        <test-method status="PASS" signature="ZillowSearchAstoria()[pri:2, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchAstoria" duration-ms="17991" started-at="2020-06-13T18:53:46 EDT" finished-at="2020-06-13T18:54:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchAstoria -->
+        <test-method status="PASS" signature="ZillowSearchElmhurst()[pri:3, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchElmhurst" duration-ms="24569" started-at="2020-06-13T18:54:04 EDT" finished-at="2020-06-13T18:54:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchElmhurst -->
+        <test-method status="PASS" signature="ZillowSearchJaxHeights()[pri:4, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchJaxHeights" duration-ms="20903" started-at="2020-06-13T18:54:29 EDT" finished-at="2020-06-13T18:54:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchJaxHeights -->
+        <test-method status="PASS" signature="ZillowSearchSunnyside()[pri:5, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchSunnyside" duration-ms="19552" started-at="2020-06-13T18:54:50 EDT" finished-at="2020-06-13T18:55:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchSunnyside -->
+        <test-method status="PASS" signature="ZillowSearchWoodside()[pri:6, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchWoodside" duration-ms="25245" started-at="2020-06-13T18:55:09 EDT" finished-at="2020-06-13T18:55:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchWoodside -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="4601" started-at="2020-06-13T18:55:35 EDT" finished-at="2020-06-13T18:55:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ZillowQueensSearchTest -->
+      <class name="tests.ZillowBrooklynSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="setup" is-config="true" duration-ms="16791" started-at="2020-06-13T18:51:32 EDT" finished-at="2020-06-13T18:51:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ZillowSearchBrooklyn()[pri:1, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchBrooklyn" duration-ms="30593" started-at="2020-06-13T18:51:48 EDT" finished-at="2020-06-13T18:52:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchBrooklyn -->
+        <test-method status="PASS" signature="ZillowSearchWilliamsburg()[pri:2, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchWilliamsburg" duration-ms="19282" started-at="2020-06-13T18:52:19 EDT" finished-at="2020-06-13T18:52:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchWilliamsburg -->
+        <test-method status="PASS" signature="ZillowSearchGreenpoint()[pri:3, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchGreenpoint" duration-ms="19174" started-at="2020-06-13T18:52:38 EDT" finished-at="2020-06-13T18:52:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchGreenpoint -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="tearDown" is-config="true" duration-ms="3724" started-at="2020-06-13T18:52:58 EDT" finished-at="2020-06-13T18:53:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ZillowBrooklynSearchTest -->
+    </test> <!-- Realtor rentals regression -->
+  </suite> <!-- Realtor Regression Suite -->
+</testng-results>
