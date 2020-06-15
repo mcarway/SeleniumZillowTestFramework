@@ -33,6 +33,7 @@ public class ZillowBrooklynSearchTest {
 	PrintWriter newLine;
 	String results;
 	Timestamp timeStamp = new Timestamp(System.currentTimeMillis());
+	String test;
     
 	@BeforeClass
 	public void setup() throws IOException {
