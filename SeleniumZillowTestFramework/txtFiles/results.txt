@@ -196,3 +196,18 @@ Elmhurst: null
 Jackson Heights: null
 Sunnyside: null
 Woodside: null
+
+This run date and time: 2020-06-15 12:55:28.053
+----Brooklyn----
+Brooklyn all: 5,129 Rentals
+Williamsburg: 736 Rentals
+Greenpoint: 176 Rentals
+
+This run date and time: 2020-06-15 12:55:28.148
+----Queens----
+Queens all: 2,492 Rentals
+Astoria: 789 Rentals
+Elmhurst: 94 Rentals
+Jackson Heights: 40 Rentals
+Sunnyside: 46 Rentals
+Woodside: 60 Rentals

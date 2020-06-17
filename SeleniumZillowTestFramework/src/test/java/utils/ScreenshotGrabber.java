@@ -2,17 +2,21 @@ package utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.Reporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ScreenshotGrabber {
-	//public static WebDriver driver;
+	//Places screenshot in screenshot folder with name of page.
 
 	public static void takeScreenshot(WebDriver driver, String page) {
 		WebDriverManager.chromedriver().driverVersion("2.36").setup();
@@ -24,4 +28,22 @@ public class ScreenshotGrabber {
 			e.printStackTrace();
 		}
 	}
+	
+	//Inserts screenshot into report as well as saves to screenshots folder.
+	public static void reportScreenshot(WebDriver driver) throws Exception {
+		String timeStamp;
+		File screenShotName;
+		String workingDir=System.getProperty("user.dir");
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		//The below method will save the screen shot in d drive with name "screenshot.png"
+		timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime()); 
+		screenShotName = new File(workingDir+"/screenshots/"+timeStamp+".png");
+		FileUtils.copyFile(scrFile, screenShotName);
+
+		String filePath = screenShotName.toString();
+		String path = "<img src='"+filePath+"'/>";
+		Reporter.log(path);
+
+	}
+
 }
