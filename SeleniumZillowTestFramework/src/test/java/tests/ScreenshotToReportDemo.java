@@ -37,9 +37,9 @@ public class ScreenshotToReportDemo {
 
 	//Test case 1
 	
-	@Test
+	@Test(priority=1)
 	public void testForcars() throws Exception {
-		Reporter.log("Test case 1. Confirm google returns results for \'Chevrolet cars\'");
+		Reporter.log("Test case 1. Confirm google returns results for \'Chevrolet cars\'<hr>");
 		Reporter.log("Step 1. Run search for \'Chevrolet cars\'");
 		driver.findElement(By.name("q")).sendKeys("Chevrolet cars");
 		ScreenshotGrabber.reportScreenshot(driver);
@@ -56,9 +56,9 @@ public class ScreenshotToReportDemo {
 		
 	}
 	//Test case 2.
-	@Test
+	@Test(priority=2)
 	public void testForTrucks() throws Exception {
-		Reporter.log("Test case 2. Confirm google returns results for \'Chevrolet trucks\'");
+		Reporter.log("Test case 2. Confirm google returns results for \'Chevrolet trucks\'<hr>");
 		Reporter.log("Step 1. Run search for \'Chevrolet trucks\'");
 		driver.findElement(By.name("q")).sendKeys("Chevrolet trucks");
 		ScreenshotGrabber.reportScreenshot(driver);

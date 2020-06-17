@@ -1,55 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars']]>
+      <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
     </line>
     <line>
       <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
     </line>
     <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_121035.png'/>]]>
+      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122450.png'/>]]>
     </line>
     <line>
       <![CDATA[Result: Results found, as expected.]]>
     </line>
     <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_121049.png'/>]]>
+      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122508.png'/>]]>
+    </line>
+    <line>
+      <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
+    </line>
+    <line>
+      <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
+    </line>
+    <line>
+      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122512.png'/>]]>
+    </line>
+    <line>
+      <![CDATA[Result: Results found, as expected.]]>
+    </line>
+    <line>
+      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122521.png'/>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22059" started-at="2020-06-17T12:10:27 EDT" finished-at="2020-06-17T12:10:49 EDT">
+  <suite name="Default suite" duration-ms="39058" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:25:21 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22059" started-at="2020-06-17T12:10:27 EDT" finished-at="2020-06-17T12:10:49 EDT">
+    <test name="Default test" duration-ms="39058" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:25:21 EDT">
       <class name="tests.ScreenshotToReportDemo">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ScreenshotToReportDemo@33f88ab]" name="setup" is-config="true" duration-ms="10817" started-at="2020-06-17T12:10:16 EDT" finished-at="2020-06-17T12:10:27 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="setup" is-config="true" duration-ms="5969" started-at="2020-06-17T12:24:36 EDT" finished-at="2020-06-17T12:24:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@33f88ab]" name="beforeEachMethod" is-config="true" duration-ms="6369" started-at="2020-06-17T12:10:27 EDT" finished-at="2020-06-17T12:10:33 EDT">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="beforeEachMethod" is-config="true" duration-ms="7771" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:24:49 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="testForcars()[pri:0, instance:tests.ScreenshotToReportDemo@33f88ab]" name="testForcars" duration-ms="15566" started-at="2020-06-17T12:10:33 EDT" finished-at="2020-06-17T12:10:49 EDT">
+        <test-method status="PASS" signature="testForcars()[pri:1, instance:tests.ScreenshotToReportDemo@3712b94]" name="testForcars" duration-ms="18819" started-at="2020-06-17T12:24:49 EDT" finished-at="2020-06-17T12:25:08 EDT">
           <reporter-output>
             <line>
-              <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars']]>
+              <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
             </line>
             <line>
               <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
             </line>
             <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_121035.png'/>]]>
+              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122450.png'/>]]>
             </line>
             <line>
               <![CDATA[Result: Results found, as expected.]]>
             </line>
             <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_121049.png'/>]]>
+              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122508.png'/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testForcars -->
-        <test-method status="PASS" signature="endOfSuite()[pri:0, instance:tests.ScreenshotToReportDemo@33f88ab]" name="endOfSuite" is-config="true" duration-ms="1963" started-at="2020-06-17T12:10:49 EDT" finished-at="2020-06-17T12:10:51 EDT">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="beforeEachMethod" is-config="true" duration-ms="2635" started-at="2020-06-17T12:25:08 EDT" finished-at="2020-06-17T12:25:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="testForTrucks()[pri:2, instance:tests.ScreenshotToReportDemo@3712b94]" name="testForTrucks" duration-ms="9721" started-at="2020-06-17T12:25:11 EDT" finished-at="2020-06-17T12:25:21 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
+            </line>
+            <line>
+              <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
+            </line>
+            <line>
+              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122512.png'/>]]>
+            </line>
+            <line>
+              <![CDATA[Result: Results found, as expected.]]>
+            </line>
+            <line>
+              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122521.png'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForTrucks -->
+        <test-method status="PASS" signature="endOfSuite()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="endOfSuite" is-config="true" duration-ms="1376" started-at="2020-06-17T12:25:21 EDT" finished-at="2020-06-17T12:25:22 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endOfSuite -->
