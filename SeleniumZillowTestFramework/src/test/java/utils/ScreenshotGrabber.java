@@ -38,10 +38,12 @@ public class ScreenshotGrabber {
 		//The below method will save the screen shot in d drive with name "screenshot.png"
 		timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime()); 
 		screenShotName = new File(workingDir+"/screenshots/"+timeStamp+".png");
+		//screenShotName = new File("/screenshots/"+timeStamp+".png");
 		FileUtils.copyFile(scrFile, screenShotName);
 
 		String filePath = screenShotName.toString();
-		String path = "<img src='"+filePath+"'/>";
+		String path = "<img src=\"File:\\\\"+filePath+"\"/>";
+		//String path = "<img src=\""+filePath+"\"/>";
 		Reporter.log(path);
 
 	}

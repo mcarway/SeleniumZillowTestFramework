@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
+    </line>
+    <line>
+      <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
+    </line>
+    <line>
+      <![CDATA[<img src="\screenshots\20200618_160510.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[Result: Results found, as expected.]]>
+    </line>
+    <line>
+      <![CDATA[<img src="\screenshots\20200618_160521.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
+    </line>
+    <line>
+      <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
+    </line>
+    <line>
+      <![CDATA[<img src="\screenshots\20200618_160525.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[Result: Results found, as expected.]]>
+    </line>
+    <line>
+      <![CDATA[<img src="\screenshots\20200618_160532.png"/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Realtor Regression Suite" duration-ms="27851" started-at="2020-06-18T16:05:04 EDT" finished-at="2020-06-18T16:05:32 EDT">
+    <groups>
+    </groups>
+    <test name="Realtor rentals regression" duration-ms="27851" started-at="2020-06-18T16:05:04 EDT" finished-at="2020-06-18T16:05:32 EDT">
+      <class name="tests.ScreenshotToReportDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ScreenshotToReportDemo@20398b7c]" name="setup" is-config="true" duration-ms="12570" started-at="2020-06-18T16:04:52 EDT" finished-at="2020-06-18T16:05:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@20398b7c]" name="beforeEachMethod" is-config="true" duration-ms="4544" started-at="2020-06-18T16:05:04 EDT" finished-at="2020-06-18T16:05:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="testForcars()[pri:1, instance:tests.ScreenshotToReportDemo@20398b7c]" name="testForcars" duration-ms="11600" started-at="2020-06-18T16:05:09 EDT" finished-at="2020-06-18T16:05:21 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
+            </line>
+            <line>
+              <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
+            </line>
+            <line>
+              <![CDATA[<img src="\screenshots\20200618_160510.png"/>]]>
+            </line>
+            <line>
+              <![CDATA[Result: Results found, as expected.]]>
+            </line>
+            <line>
+              <![CDATA[<img src="\screenshots\20200618_160521.png"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForcars -->
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@20398b7c]" name="beforeEachMethod" is-config="true" duration-ms="3234" started-at="2020-06-18T16:05:21 EDT" finished-at="2020-06-18T16:05:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="testForTrucks()[pri:2, instance:tests.ScreenshotToReportDemo@20398b7c]" name="testForTrucks" duration-ms="8392" started-at="2020-06-18T16:05:24 EDT" finished-at="2020-06-18T16:05:32 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
+            </line>
+            <line>
+              <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
+            </line>
+            <line>
+              <![CDATA[<img src="\screenshots\20200618_160525.png"/>]]>
+            </line>
+            <line>
+              <![CDATA[Result: Results found, as expected.]]>
+            </line>
+            <line>
+              <![CDATA[<img src="\screenshots\20200618_160532.png"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForTrucks -->
+        <test-method status="PASS" signature="endOfSuite()[pri:0, instance:tests.ScreenshotToReportDemo@20398b7c]" name="endOfSuite" is-config="true" duration-ms="1387" started-at="2020-06-18T16:05:32 EDT" finished-at="2020-06-18T16:05:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfSuite -->
+      </class> <!-- tests.ScreenshotToReportDemo -->
+    </test> <!-- Realtor rentals regression -->
+  </suite> <!-- Realtor Regression Suite -->
+</testng-results>

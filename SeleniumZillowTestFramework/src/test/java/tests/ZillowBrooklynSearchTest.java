@@ -37,10 +37,10 @@ public class ZillowBrooklynSearchTest {
     
 	@BeforeClass
 	public void setup() throws IOException {
-		WebDriverManager.firefoxdriver().setup();
-		driver=new FirefoxDriver();
-		//WebDriverManager.chromedriver().setup();
-		//driver=new ChromeDriver();
+//		WebDriverManager.firefoxdriver().setup();
+//		driver=new FirefoxDriver();
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
 		//WebDriverManager.chromedriver().driverVersion("2.36").setup();
 		searchPageObj = new ZillowSearchPageObjects(driver);
 		//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
@@ -50,12 +50,12 @@ public class ZillowBrooklynSearchTest {
 		results="\n\nThis run date and time: "+timeStamp;
 		results+="\n----Brooklyn----";
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 
 
 	}
 
-	@Test(priority=1)
+	@Test
 	public void ZillowSearchBrooklyn() throws Exception {
 
 
@@ -84,11 +84,11 @@ public class ZillowBrooklynSearchTest {
 		//Assert.assertEquals(driver.getCurrentUrl(), "https://www.realtor.com/apartments/Queens_NY", "You're on the wrong page.");
 
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
 
-	@Test(priority=2) 
+	@Test
 	public void ZillowSearchWilliamsburg() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -108,10 +108,10 @@ public class ZillowBrooklynSearchTest {
 		//driver.navigate().refresh();
 		results="\nWilliamsburg: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 	
-	@Test(priority=3) 
+	@Test
 	public void ZillowSearchGreenpoint() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -131,12 +131,13 @@ public class ZillowBrooklynSearchTest {
 		//driver.navigate().refresh();
 		results="\nGreenpoint: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
 	@AfterClass
 	public void tearDown() throws IOException {
 		System.out.println(rentResults);
+		newLine.flush();
 		newLine.close();
 		driver.close();
 		//killWebDriver.kill();

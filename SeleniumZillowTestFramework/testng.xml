@@ -3,8 +3,7 @@
 <suite name="Realtor Regression Suite">
   <test thread-count="5" name="Realtor rentals regression">
     <classes>
-      <class name="tests.ZillowBrooklynSearchTest"/>
-      <class name="tests.ZillowQueensSearchTest"/>
+      <class name="tests.ScreenshotToReportDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,97 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
-    <line>
-      <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
-    </line>
-    <line>
-      <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
-    </line>
-    <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122450.png'/>]]>
-    </line>
-    <line>
-      <![CDATA[Result: Results found, as expected.]]>
-    </line>
-    <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122508.png'/>]]>
-    </line>
-    <line>
-      <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
-    </line>
-    <line>
-      <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
-    </line>
-    <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122512.png'/>]]>
-    </line>
-    <line>
-      <![CDATA[Result: Results found, as expected.]]>
-    </line>
-    <line>
-      <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122521.png'/>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39058" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:25:21 EDT">
+  <suite name="Zillow Suite" duration-ms="201809" started-at="2020-06-19T13:28:29 EDT" finished-at="2020-06-19T13:31:51 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39058" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:25:21 EDT">
-      <class name="tests.ScreenshotToReportDemo">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="setup" is-config="true" duration-ms="5969" started-at="2020-06-17T12:24:36 EDT" finished-at="2020-06-17T12:24:42 EDT">
+    <test name="Zillow Tests" duration-ms="201809" started-at="2020-06-19T13:28:29 EDT" finished-at="2020-06-19T13:31:51 EDT">
+      <class name="tests.ZillowQueensSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="setup" is-config="true" duration-ms="9256" started-at="2020-06-19T13:28:29 EDT" finished-at="2020-06-19T13:28:38 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="beforeEachMethod" is-config="true" duration-ms="7771" started-at="2020-06-17T12:24:42 EDT" finished-at="2020-06-17T12:24:49 EDT">
+        <test-method status="PASS" signature="ZillowSearchAstoria()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchAstoria" duration-ms="31808" started-at="2020-06-19T13:28:38 EDT" finished-at="2020-06-19T13:29:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="testForcars()[pri:1, instance:tests.ScreenshotToReportDemo@3712b94]" name="testForcars" duration-ms="18819" started-at="2020-06-17T12:24:49 EDT" finished-at="2020-06-17T12:25:08 EDT">
-          <reporter-output>
-            <line>
-              <![CDATA[Test case 1. Confirm google returns results for 'Chevrolet cars'<hr>]]>
-            </line>
-            <line>
-              <![CDATA[Step 1. Run search for 'Chevrolet cars']]>
-            </line>
-            <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122450.png'/>]]>
-            </line>
-            <line>
-              <![CDATA[Result: Results found, as expected.]]>
-            </line>
-            <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122508.png'/>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testForcars -->
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="beforeEachMethod" is-config="true" duration-ms="2635" started-at="2020-06-17T12:25:08 EDT" finished-at="2020-06-17T12:25:11 EDT">
+        </test-method> <!-- ZillowSearchAstoria -->
+        <test-method status="PASS" signature="ZillowSearchElmhurst()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchElmhurst" duration-ms="35016" started-at="2020-06-19T13:29:10 EDT" finished-at="2020-06-19T13:29:45 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="testForTrucks()[pri:2, instance:tests.ScreenshotToReportDemo@3712b94]" name="testForTrucks" duration-ms="9721" started-at="2020-06-17T12:25:11 EDT" finished-at="2020-06-17T12:25:21 EDT">
-          <reporter-output>
-            <line>
-              <![CDATA[Test case 2. Confirm google returns results for 'Chevrolet trucks'<hr>]]>
-            </line>
-            <line>
-              <![CDATA[Step 1. Run search for 'Chevrolet trucks']]>
-            </line>
-            <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122512.png'/>]]>
-            </line>
-            <line>
-              <![CDATA[Result: Results found, as expected.]]>
-            </line>
-            <line>
-              <![CDATA[<img src='C:\Users\Mark\git\SeleniumZillowTestFramework\SeleniumZillowTestFramework\screenshots\20200617_122521.png'/>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testForTrucks -->
-        <test-method status="PASS" signature="endOfSuite()[pri:0, instance:tests.ScreenshotToReportDemo@3712b94]" name="endOfSuite" is-config="true" duration-ms="1376" started-at="2020-06-17T12:25:21 EDT" finished-at="2020-06-17T12:25:22 EDT">
+        </test-method> <!-- ZillowSearchElmhurst -->
+        <test-method status="PASS" signature="ZillowSearchJaxHeights()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchJaxHeights" duration-ms="45570" started-at="2020-06-19T13:29:45 EDT" finished-at="2020-06-19T13:30:31 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endOfSuite -->
-      </class> <!-- tests.ScreenshotToReportDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- ZillowSearchJaxHeights -->
+        <test-method status="PASS" signature="ZillowSearchQueens()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchQueens" duration-ms="27390" started-at="2020-06-19T13:30:31 EDT" finished-at="2020-06-19T13:30:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchQueens -->
+        <test-method status="PASS" signature="ZillowSearchSunnyside()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchSunnyside" duration-ms="26129" started-at="2020-06-19T13:30:58 EDT" finished-at="2020-06-19T13:31:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchSunnyside -->
+        <test-method status="PASS" signature="ZillowSearchWoodside()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="ZillowSearchWoodside" duration-ms="24137" started-at="2020-06-19T13:31:24 EDT" finished-at="2020-06-19T13:31:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchWoodside -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ZillowQueensSearchTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="2416" started-at="2020-06-19T13:31:48 EDT" finished-at="2020-06-19T13:31:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ZillowQueensSearchTest -->
+      <class name="tests.ZillowBrooklynSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="setup" is-config="true" duration-ms="8249" started-at="2020-06-19T13:28:29 EDT" finished-at="2020-06-19T13:28:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ZillowSearchBrooklyn()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchBrooklyn" duration-ms="50421" started-at="2020-06-19T13:28:37 EDT" finished-at="2020-06-19T13:29:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchBrooklyn -->
+        <test-method status="PASS" signature="ZillowSearchGreenpoint()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchGreenpoint" duration-ms="45655" started-at="2020-06-19T13:29:28 EDT" finished-at="2020-06-19T13:30:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchGreenpoint -->
+        <test-method status="PASS" signature="ZillowSearchWilliamsburg()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="ZillowSearchWilliamsburg" duration-ms="50434" started-at="2020-06-19T13:30:13 EDT" finished-at="2020-06-19T13:31:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZillowSearchWilliamsburg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ZillowBrooklynSearchTest@33f88ab]" name="tearDown" is-config="true" duration-ms="3722" started-at="2020-06-19T13:31:04 EDT" finished-at="2020-06-19T13:31:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ZillowBrooklynSearchTest -->
+    </test> <!-- Zillow Tests -->
+  </suite> <!-- Zillow Suite -->
 </testng-results>

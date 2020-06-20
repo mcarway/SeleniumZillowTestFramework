@@ -26,7 +26,7 @@ public class ZillowSearchPageObjects {
 	By searchButton = By.className("rdc-btn rdc-btn-brand search-btn");
 	//By resultCount = By.xpath("//div[@id='srp-list']/div/span");
 	By resultCount=By.cssSelector("#search-result-count");
-	By waitField=By.id("srp-header");
+	By waitField=By.cssSelector("#search-result-count");
 
 	String resultNum;
 	WebElement myElement;
@@ -67,22 +67,24 @@ public class ZillowSearchPageObjects {
 		wait = new WebDriverWait(driver,40);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(waitField));
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='srp-list']/div/span")));
-/*
-		if(driver.findElements(By.xpath("//div[@id='srp-list']/div/span")).size() != 0){
-			resultNum=driver.findElement(By.xpath("//div[@id='srp-list']/div/span")).getText();
-			System.out.println("Xpath used.");
-		}else{
+		if(driver.findElements(By.cssSelector("#search-result-count")).size() != 0){ //works
 			resultNum=driver.findElement(By.cssSelector("#search-result-count")).getText();
 			System.out.println("css used.");
+		}else if (driver.findElements(By.xpath("//span[@id='search-result-count']")).size() != 0){ //works
+			resultNum=driver.findElement(By.xpath("//span[@id='search-result-count']")).getText();
+			System.out.println("span used.");
+		}else if (driver.findElements(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/section[1]/div[2]/div[1]/span[1]")).size() != 0){ //works
+			resultNum=driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/section[1]/div[2]/div[1]/span[1]")).getText();
+			System.out.println("span used.");
 		}	
-*/
-		if(driver.findElements(By.cssSelector("#search-result-count")).size() != 0){
-			resultNum=driver.findElement(By.cssSelector("#search-result-count")).getText();
-			System.out.println("css used.");
-		}else if (driver.findElements(By.xpath("//div[@id='srp-list']/div/span")).size() != 0){
-			resultNum=driver.findElement(By.xpath("//div[@id='srp-list']/div/span")).getText();
-			System.out.println("xpath used.");
-		}	
+		/*
+		if (driver.findElements(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/section[1]/div[2]/div[1]/span[1]")).size() != 0){
+			Integer intSize=driver.findElements(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/section[1]/div[2]/div[1]/span[1]")).size();
+			resultNum=driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/section[1]/div[2]/div[1]/span[1]")).getText();
+			System.out.println(intSize);
+			System.out.println("css used");
+		}*/
+
 
 //		resultNum=driver.findElement(resultCount).getText();
 		//resultNum=driver.findElement(By.xpath("//div[@id='srp-list']/div/span")).getText();

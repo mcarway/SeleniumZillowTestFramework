@@ -36,10 +36,10 @@ public class ZillowQueensSearchTest {
 
 	@BeforeClass
 	public void setup() throws IOException {
-		WebDriverManager.firefoxdriver().setup();
-		driver=new FirefoxDriver();
-		//WebDriverManager.chromedriver().setup();
-		//driver=new ChromeDriver();
+		//WebDriverManager.firefoxdriver().setup();
+		//driver=new FirefoxDriver();
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
 		//WebDriverManager.chromedriver().driverVersion("2.36").setup();
 		searchPageObj = new ZillowSearchPageObjects(driver);
 		//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
@@ -50,12 +50,12 @@ public class ZillowQueensSearchTest {
 		results+="\n----Queens----";
 
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 
 
 	}
 
-	@Test(priority=1)
+	@Test
 	public void ZillowSearchQueens() throws Exception {
 
 
@@ -84,11 +84,11 @@ public class ZillowQueensSearchTest {
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.realtor.com/apartments/Queens_NY", "You're on the wrong page.");
 
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
 
-	@Test(priority=2) 
+	@Test
 	public void ZillowSearchAstoria() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -108,10 +108,10 @@ public class ZillowQueensSearchTest {
 		//driver.navigate().refresh();
 		results="\nAstoria: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 	
-	@Test(priority=3) 
+	@Test 
 	public void ZillowSearchElmhurst() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -131,11 +131,11 @@ public class ZillowQueensSearchTest {
 		//driver.navigate().refresh();
 		results="\nElmhurst: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
 
-	@Test(priority=4) 
+	@Test
 	public void ZillowSearchJaxHeights() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -155,11 +155,11 @@ public class ZillowQueensSearchTest {
 
 		results="\nJackson Heights: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
 
-	@Test(priority=5) 
+	@Test
 	public void ZillowSearchSunnyside() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -179,10 +179,10 @@ public class ZillowQueensSearchTest {
 
 		results="\nSunnyside: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 
-	@Test(priority=6) 
+	@Test
 	public void ZillowSearchWoodside() throws Exception {
 
 		driver.get("https://www.realtor.com/rentals");
@@ -202,7 +202,7 @@ public class ZillowQueensSearchTest {
 
 		results="\nWoodside: "+searchPageObj.getResultCount();
 		newLine.print(results);
-		newLine.flush();
+		//newLine.flush();
 	}
 /*
 	@Test(priority=7) 
@@ -231,6 +231,7 @@ public class ZillowQueensSearchTest {
 	@AfterClass
 	public void tearDown() throws IOException {
 		System.out.println(rentResults);
+		newLine.flush();
 		newLine.close();
 		driver.close();
 		//killWebDriver.kill();
