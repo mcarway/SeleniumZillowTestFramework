@@ -50,3 +50,45 @@ Jackson Heights: 40 Rentals
 Queens all: 2,505 Rentals
 Sunnyside: 46 Rentals
 Woodside: 53 Rentals
+
+This run date and time: 2020-06-23 20:57:27.877
+----Queens----
+Astoria: 824 Rentals
+Elmhurst: 90 Rentals
+Jackson Heights: 54 Rentals
+Queens all: 2,573 Rentals
+Sunnyside: 43 Rentals
+Woodside: 52 Rentals
+
+This run date and time: 2020-06-23 20:57:27.783
+----Brooklyn----
+
+This run date and time: 2020-06-23 21:04:45.712
+----Brooklyn----
+Brooklyn all: 5,361 Rentals
+Greenpoint: 202 Rentals
+Williamsburg: 748 Rentals
+
+This run date and time: 2020-06-23 21:04:45.778
+----Queens----
+Astoria: 824 Rentals
+Elmhurst: 90 Rentals
+Jackson Heights: 54 Rentals
+Queens all: 2,573 Rentals
+Sunnyside: 43 Rentals
+Woodside: 52 Rentals
+
+This run date and time: 2020-06-23 21:09:05.964
+----Brooklyn----
+Brooklyn all: 5,361 Rentals
+Greenpoint: 202 Rentals
+Williamsburg: 748 Rentals
+
+This run date and time: 2020-06-23 21:09:06.034
+----Queens----
+Astoria: 824 Rentals
+Elmhurst: 90 Rentals
+Jackson Heights: 54 Rentals
+Queens all: 2,573 Rentals
+Sunnyside: 43 Rentals
+Woodside: 52 Rentals

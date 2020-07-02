@@ -12,18 +12,6 @@
           <include name="ZillowSearchWilliamsburg"/>
         </methods>
       </class> <!-- tests.ZillowBrooklynSearchTest -->
-      <class name="tests.ZillowQueensSearchTest">
-        <methods>
-          <include name="ZillowSearchWoodside"/>
-          <include name="setup"/>
-          <include name="ZillowSearchJaxHeights"/>
-          <include name="tearDown"/>
-          <include name="ZillowSearchSunnyside"/>
-          <include name="ZillowSearchAstoria"/>
-          <include name="ZillowSearchElmhurst"/>
-          <include name="ZillowSearchQueens"/>
-        </methods>
-      </class> <!-- tests.ZillowQueensSearchTest -->
     </classes>
   </test> <!-- Zillow Tests(failed) -->
 </suite> <!-- Failed suite [Zillow Suite] -->
