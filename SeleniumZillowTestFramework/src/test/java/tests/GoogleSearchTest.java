@@ -40,7 +40,7 @@ public class GoogleSearchTest {
 		//GoogleSearchPage.button_search(driver).click();
 		//driver.findElement(By.name("btnK")).click();
 		//Add a comment to commit and push.
-		//Add another.
+		//Add a second comment. Delete the first.
 		
 		try {
 			Thread.sleep(3000);
