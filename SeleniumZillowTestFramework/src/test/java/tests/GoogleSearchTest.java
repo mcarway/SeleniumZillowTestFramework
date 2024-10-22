@@ -35,7 +35,7 @@ public class GoogleSearchTest {
 		GoogleSearchPage.textbox_search(driver).sendKeys("How to program");
 		
 		//Click Tab to collapse search results.
-		GoogleSearchPage.textbox_search(driver).sendKeys(Keys.RETURN);
+		GoogleSearchPage.textbox_search(driver).sendKeys(Keys.RETURN); 
 		
 		//Click the Search button.
 		//GoogleSearchPage.button_search(driver).click();
