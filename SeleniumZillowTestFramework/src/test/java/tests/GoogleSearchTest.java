@@ -16,6 +16,7 @@ public class GoogleSearchTest {
 	private static WebDriver driver;
 
 	public static void main(String[] args) {
+		//New comment on 10/22 @ 1221.
 
 		WebDriverManager.chromedriver().driverVersion("2.36").setup();
 		driver=new ChromeDriver();
@@ -34,7 +35,7 @@ public class GoogleSearchTest {
 		GoogleSearchPage.textbox_search(driver).sendKeys("How to program");
 		
 		//Click Tab to collapse search results.
-		GoogleSearchPage.textbox_search(driver).sendKeys(Keys.RETURN);
+		GoogleSearchPage.textbox_search(driver).sendKeys(Keys.RETURN); 
 		
 		//Click the Search button.
 		//GoogleSearchPage.button_search(driver).click();

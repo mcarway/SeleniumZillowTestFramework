@@ -1,4 +1,103 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.261 s - in TestSuite
+Tests run: 12, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 29.118 s <<< FAILURE! - in TestSuite
+ZillowSearchAstoria(tests.ZillowQueensSearchTest)  Time elapsed: 7.248 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e678c092f4684ed718f167057e4a3060
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowQueensSearchTest.ZillowSearchAstoria(ZillowQueensSearchTest.java:96)
+
+ZillowSearchElmhurst(tests.ZillowQueensSearchTest)  Time elapsed: 1.295 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e678c092f4684ed718f167057e4a3060
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowQueensSearchTest.ZillowSearchElmhurst(ZillowQueensSearchTest.java:119)
+
+ZillowSearchJaxHeights(tests.ZillowQueensSearchTest)  Time elapsed: 0.366 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e678c092f4684ed718f167057e4a3060
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowQueensSearchTest.ZillowSearchJaxHeights(ZillowQueensSearchTest.java:143)
+
+ZillowSearchQueens(tests.ZillowQueensSearchTest)  Time elapsed: 0.369 s  <<< FAILURE!
+java.lang.AssertionError: The title on page at https://www.realtor.com/rentals is incorrect. expected [Apartments for Rent, Condos and Home Rentals | Rental Home Property Search | realtor.com�] but found [Pardon Our Interruption]
+	at tests.ZillowQueensSearchTest.ZillowSearchQueens(ZillowQueensSearchTest.java:65)
+
+ZillowSearchSunnyside(tests.ZillowQueensSearchTest)  Time elapsed: 0.473 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e678c092f4684ed718f167057e4a3060
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowQueensSearchTest.ZillowSearchSunnyside(ZillowQueensSearchTest.java:167)
+
+ZillowSearchWoodside(tests.ZillowQueensSearchTest)  Time elapsed: 0.3 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e678c092f4684ed718f167057e4a3060
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowQueensSearchTest.ZillowSearchWoodside(ZillowQueensSearchTest.java:190)
+
+ZillowSearchBrooklyn(tests.ZillowBrooklynSearchTest)  Time elapsed: 2.996 s  <<< FAILURE!
+java.lang.AssertionError: The title on page at https://www.realtor.com/rentals is incorrect. expected [Apartments for Rent, Condos and Home Rentals | Rental Home Property Search | realtor.com�] but found [Pardon Our Interruption]
+	at tests.ZillowBrooklynSearchTest.ZillowSearchBrooklyn(ZillowBrooklynSearchTest.java:65)
+
+ZillowSearchGreenpoint(tests.ZillowBrooklynSearchTest)  Time elapsed: 0.581 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e223cbfcb4bd64b5fc70d03f8d29ae7d
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowBrooklynSearchTest.ZillowSearchGreenpoint(ZillowBrooklynSearchTest.java:119)
+
+ZillowSearchWilliamsburg(tests.ZillowBrooklynSearchTest)  Time elapsed: 0.279 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".rdc\-input"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.lan', ip: '192.168.1.249', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/j2/lng90661749...}, goog:chromeOptions: {debuggerAddress: localhost:50490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e223cbfcb4bd64b5fc70d03f8d29ae7d
+*** Element info: {Using=class name, value=rdc-input}
+	at tests.ZillowBrooklynSearchTest.ZillowSearchWilliamsburg(ZillowBrooklynSearchTest.java:96)
+
