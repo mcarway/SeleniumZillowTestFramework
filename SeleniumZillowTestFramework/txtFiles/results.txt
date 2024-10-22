@@ -92,3 +92,15 @@ Jackson Heights: 54 Rentals
 Queens all: 2,573 Rentals
 Sunnyside: 43 Rentals
 Woodside: 52 Rentals
+
+This run date and time: 2023-05-29 16:38:55.587
+----Queens----
+
+This run date and time: 2023-05-29 16:38:55.603
+----Brooklyn----
+
+This run date and time: 2023-05-29 16:41:09.123
+----Queens----
+
+This run date and time: 2023-05-29 16:41:09.138
+----Brooklyn----
