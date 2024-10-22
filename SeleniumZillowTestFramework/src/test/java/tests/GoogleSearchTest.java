@@ -16,7 +16,7 @@ public class GoogleSearchTest {
 	private static WebDriver driver;
 
 	public static void main(String[] args) {
-		//New comment on 10/22 @ 1200.f
+		//New comment on 10/22 @ 1200.
 
 		WebDriverManager.chromedriver().driverVersion("2.36").setup();
 		driver=new ChromeDriver();
